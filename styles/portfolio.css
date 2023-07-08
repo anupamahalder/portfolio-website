@@ -17,6 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
+
 }
 .nav-title{
     color: #181818;
@@ -38,4 +40,15 @@ nav a{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+}
+/* header related styles  */
+.header{
+    /* background-color: #FFF8F3; */
+    background-color: #a8d9e6;
+}
+.banner{
+    padding: 30px 50px 30px 150px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
 }
