@@ -99,6 +99,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     margin: 130px 150px;
     padding: 90px;
@@ -137,4 +140,73 @@ main{
     padding: 20px;
     display: flex;
     justify-content: space-around;
+}
+.skills-div{
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);;
+}
+.skill-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.skill-description{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* Resume section styles */
+.resume{
+    padding: 25px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.resume-col-title{
+    padding-top: 20px;
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.resume-item-title{
+    padding-top: 20px;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.resume-item-institute{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.resume-item-description{
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+.cv-download{
+    color: #FFF;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
 }
