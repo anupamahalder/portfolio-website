@@ -199,6 +199,7 @@ main section{
 .resume-item-description{
     display: flex;
     width: 511px;
+    color: #757575;
     flex-direction: column;
     flex-shrink: 0;
     margin-bottom: 20px;
