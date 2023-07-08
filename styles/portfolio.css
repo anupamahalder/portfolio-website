@@ -16,6 +16,7 @@ body{
     border: 0;
     padding: 15px 30px 16px 32px;
     font-weight: 700;
+    color: #FFF;
 }
 /* nav related styles  */
 nav{
@@ -211,9 +212,39 @@ main section{
     margin: 30px auto;
     font-size: 20px;
 }
+/* Footer section styles */
 .footer{
     display: flex;
+    justify-content: space-between;
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
+}
+.footer-col{
+    width: 100%;
+}
+.footer-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.contact-form input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.submit{
+    color: #FFF;
+    font-weight: 700;
+}
+.footer-description{
+    padding-bottom: 30px;
+    color: #757575;
+}
+.social-links a{
+    margin-right: 15px;
 }
