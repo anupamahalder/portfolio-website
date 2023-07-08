@@ -17,6 +17,7 @@ body{
     padding: 15px 30px 16px 32px;
     font-weight: 700;
     color: #FFF;
+    font-weight: 700;
 }
 /* nav related styles  */
 nav{
@@ -51,21 +52,24 @@ nav a{
 .header{
     background-color: #FFF8F3;
     /* background-color: #a8d9e6; */
-    background-image: url(../images/header_bg.png);
-    background-size: 450px;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-size: 450px,50px;
+    background-origin: border-box,content-box;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+    padding-top: 15px;
 }
 .banner{
     padding: 100px 50px 0px 250px;
+    margin-bottom: 0;
     display: flex;
-    /* align-items: center; */
+    align-items:end;
     justify-content: space-between;
     /* flex-direction: row-reverse; */
 }
 .profile-pic{
-    width: 300px;
-    padding-bottom: 0;
+    height: 300px;
+    object-position: bottom right;
     margin-bottom: 0;
 }
 .banner-welcome{
@@ -236,10 +240,6 @@ main section{
     border-radius: 5px;
     border: 0;
     width: 100%;
-}
-.submit{
-    color: #FFF;
-    font-weight: 700;
 }
 .footer-description{
     padding-bottom: 30px;
