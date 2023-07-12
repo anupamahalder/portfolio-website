@@ -19,6 +19,12 @@ body{
     color: #FFF;
     font-weight: 700;
 }
+.btn-primary:hover{
+    background-color: #db7024;
+    color: #FFF;
+    font-weight: 800;
+    font-size: larger;
+}
 /* nav related styles  */
 nav{
     padding-top: 25px;
