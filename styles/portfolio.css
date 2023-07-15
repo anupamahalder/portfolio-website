@@ -257,14 +257,14 @@ main section{
 /* For responsiveness */
 /* For mobile device  */
 @media screen and (max-width:576px) {
-    .body{
-        margin: 0 auto;
-        padding: 5px;
+    body{
+        width: 100%;
+        margin: 10px auto;
     }
     .header{
         background-image: none; 
         display: block;
-        width: 120%;  
+        width: 100%;  
     }
     nav{
         flex-direction: column;
@@ -278,7 +278,7 @@ main section{
         margin-bottom: 10px;
     }
     .banner>div{
-        width: 100vw;
+        width: 100%;
     }
     .banner-img{
         padding-bottom: 0;
@@ -300,7 +300,7 @@ main section{
         margin-right: 10px;
         padding: 10px 23px;
     }
-    main section{
+    main,section{
         margin-top: 20px;
     }
     .skills-container,.resume-container,.footer{
@@ -312,7 +312,7 @@ main section{
     }
     .resume{
         text-align: center;
-        width: 100%;
+        /* width: 100%; */
     }
     .resume-container{
         /* background-color: aquamarine; */
@@ -366,7 +366,7 @@ main section{
     }
     .footer{
         padding: 10px;
-        width: 120%;
+        /* width: 100%; */
         margin: 10px auto;
         /* margin-left: auto; */
         /* margin-right: auto; */
@@ -384,19 +384,12 @@ main section{
     .contact-form input[type="text"], input[type="email"], textarea{
         width: 80%;
     }
-    .main{
-        margin: auto;
-        width: 120%;
-    }
     .about{
-        padding: 10px;
-        margin: 0;
-        margin-left: 10px;
-        margin-top: 30px;
+        margin: 20px auto;
     }
     .about-info-container{
         display: block;
-        width: 100vw;
+        width: 100%;
         flex-direction: column;
     }
     .about-info{
